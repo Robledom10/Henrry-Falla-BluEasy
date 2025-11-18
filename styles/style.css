@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans";
+}
+
+section {
+    padding: 5% 10%;
+}
+
+h2 {
+    font-weight: 300;
+}
+
+p {
+    font-weight: 400;
+}
+
+header {
+    background: url(../assets/img/Fondo.png);
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+}
+
+.browse {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 3% 10%;
+    align-items: center;
+}
+
+.browse span {
+    color: #4BCAFF;
+}
+
+.browse .logo {
+    font-size: 0.8rem;
+}
+
+nav {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+#active {
+    color: #4BCAFF;
+    border: 3px solid #4BCAFF;
+    padding: 5px 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+header h2 {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+
+.section-blue {
+    background-color: #4BCAFF;
+}
+
+.features-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-template-rows: 1fr;
+    gap: 25px;
+    justify-content: center;
+}
+
+.contenedor {
+    color: white;
+    display: grid;
+    gap: 10px;
+}
+
+.contenedor h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.contenedor p {
+    font-size: 0.8rem;
+}
+
+.section-portfolio {
+    display: grid;
+    gap: 50px;
+}
+
+.browse-portfolio {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-portfolio a {
+    color: #69747B;
+    font-weight: 500;
+}
+
+.linea-portfolio {
+    border: 1px solid #69747B;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.title-portfolio {
+    color: #69747B;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    gap: 47px;
+}
+
+.image-portfoli {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    overflow: hidden;
+}
+
+.image-portfoli img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.section-video {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: #515F67;
+    color: white;
+    gap: 40px;
+    align-items: center;
+}
+
+.video-left {
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-left h2 {
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+.video-linea {
+    border: 1px solid white;
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.video-left p {
+    font-size: 0.8rem;
+}
+
+.video-paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.video-paragraph2 {
+    max-width: 450px;
+}
+
+.video-button {
+    margin-top: 30px;
+}
+
+.video-button a{
+    padding: 10px 40px;
+    border: 3px solid #353F46;
+    text-decoration: none;
+    color: #353F46;
+    font-weight: 700;
+}
+
+.section-twitter {
+    background: #4BCAFF;
+    color: white;
+}
+
+.content-title-twitter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linea-twitter {
+    border: 1px solid white;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.title-twitter {
+    margin-bottom: 20px;
+}
+
+.paragrapht-twitter {
+    max-width: 60%;
+}
+
+.paragrapht-twitter p {
+    font-weight: 300;
+}
+
+.paragrapht-twitter span {
+    font-weight: bold;
+}
