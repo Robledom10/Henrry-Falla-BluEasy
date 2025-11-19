@@ -138,7 +138,7 @@ header h2 {
 
 .image-portfoli {
     width: 100%;
-    aspect-ratio: 1 / 1; 
+    aspect-ratio: 1 / 1;
     overflow: hidden;
 }
 
@@ -194,7 +194,7 @@ header h2 {
     margin-top: 30px;
 }
 
-.video-button a{
+.video-button a {
     padding: 10px 40px;
     border: 3px solid #353F46;
     text-decoration: none;
@@ -232,4 +232,159 @@ header h2 {
 
 .paragrapht-twitter span {
     font-weight: bold;
+}
+
+.section-about {
+    background-image: url(../assets/img/bg_whoIs.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-about {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.linea-about {
+    border: 1px solid white;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.info-left {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info-right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.paragraph-about {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    max-width: 90%;
+}
+
+.paragraph-about2 {
+    max-width: 95%;
+}
+
+.paragraph-about p {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.icon-about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 15px));
+    ;
+}
+
+.section-testimonials {
+    color: #515F67;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.linea-testimonials {
+    border: 1px solid #515F67;
+    width: 40px;
+    margin-top: 5px;
+}
+
+.paragraph-testimonials P {
+    font-size: 1.4rem;
+    font-weight: 300;
+    max-width: 80%;
+}
+
+.link-testimonials small {
+    color: #4BCAFF;
+    font-weight: bold;
+}
+
+.section-formulario {
+    background: url('../assets/img/bg_contact.png') no-repeat center/cover;
+    color: white;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 70px) 100px;
+    column-gap: 138px;
+    row-gap: 20px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
+}
+
+.contact-info p {
+    font-size: 0.8rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    height: 70%;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    resize: none;
+}
+
+.contact button {
+    padding: 15px 15%;
+    background: #4ac9ff;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.input2 {
+    grid-column: 1 / 2;
+}
+
+.contact-info1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.contact-info2 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.input3 {
+    grid-column: 1 / 3;
+    grid-row: 3 / 5;
 }
